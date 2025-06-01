@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Hello, Modding World!</name> <!-- The name of your mod in the mod list -->
+    <name>Recruited Zone Auto-Assign</name> <!-- The name of your mod in the mod list -->
     <author>uuqstrings</author>
     <supportedVersions> <!-- the version(s) your mod supports -->
         <li>1.5</li>
     </supportedVersions>
     <packageId>uuqstrings.recruitedZoneAssign</packageId> <!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
     <description>
-Congratulations, you just set up your very first mod!
-
-It doesn't actually modify anything yet, but it's still cool.
+        Assigns newly recruited pawns to the most commonly assigned zone for its type.
     </description>
 </ModMetaData>
