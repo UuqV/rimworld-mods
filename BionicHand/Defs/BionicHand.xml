@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <xpath>Data/Core/Defs/HediffDefs/BodyParts/Hediffs_BodyParts_Bionic</xpath>
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>BionicHand</defName>
+        <label>bionic hand</label>
+        <labelNoun>a bionic hand</labelNoun>
+        <description>An installed bionic hand. Silenced mini-servos give great strength, while the
+            biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to
+            recover from damage. It is better than a biological hand in almost every way.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BionicHand</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>fist</label>
+                        <capacities>
+                            <li>Blunt</li>
+                        </capacities>
+                        <power>9</power>
+                        <cooldownTime>2</cooldownTime>
+                        <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+                    </li>
+                </tools>
+            </li>
+        </comps>
+        <spawnThingOnRemoved>BionicHand</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1.25</partEfficiency>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>BionicHand</defName>
+        <label>bionic hand</label>
+        <description>An advanced artificial hand. Silenced mini-servos give great strength, while
+            the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it
+            to recover from damage. It is better than a biological hand in almost every way.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallBionicHand</RecipeDef>
+        </descriptionHyperlinks>
+        <costList>
+            <Plasteel>5</Plasteel>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <thingSetMakerTags>
+            <li>RewardStandardMidFreq</li>
+        </thingSetMakerTags>
+        <statBases>
+            <Mass>2</Mass>
+        </statBases>
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>InstallBionicHand</defName>
+        <label>install bionic hand</label>
+        <description>Install a bionic hand.</description>
+        <descriptionHyperlinks>
+            <ThingDef>BionicHand</ThingDef>
+            <HediffDef>BionicHand</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing bionic hand.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BionicHand</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>BionicHand</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Hand</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>BionicHand</addsHediff>
+    </RecipeDef>
+</Defs>
