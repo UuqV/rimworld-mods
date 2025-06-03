@@ -5,9 +5,7 @@
         <defName>BionicHand</defName>
         <label>bionic hand</label>
         <labelNoun>a bionic hand</labelNoun>
-        <description>An installed bionic hand. Silenced mini-servos give great strength, while the
-            biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to
-            recover from damage. It is better than a biological hand in almost every way.</description>
+        <description>An installed bionic hand. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological hand in almost every way.</description>
         <descriptionHyperlinks>
             <ThingDef>BionicHand</ThingDef>
         </descriptionHyperlinks>
@@ -38,9 +36,7 @@
     <ThingDef ParentName="BodyPartBionicBase">
         <defName>BionicHand</defName>
         <label>bionic hand</label>
-        <description>An advanced artificial hand. Silenced mini-servos give great strength, while
-            the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it
-            to recover from damage. It is better than a biological hand in almost every way.</description>
+        <description>An advanced artificial hand. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological hand in almost every way.</description>
         <descriptionHyperlinks>
             <RecipeDef>InstallBionicHand</RecipeDef>
         </descriptionHyperlinks>
