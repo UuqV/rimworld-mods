@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../.local/share/Steam/steamapps/common/RimWorld"
+		},
+		{
+			"path": "../../.local/share/Steam/steamapps/workshop/content/294100"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Documents/DecompiledRimworld"
+		}
+	],
+	"settings": {}
+}

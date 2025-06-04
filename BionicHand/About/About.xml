@@ -7,7 +7,5 @@
     </supportedVersions>
     <packageId>uuqstrings.bionichand</packageId> <!-- a unique identifier for your mod. Must
     contain only a-z and periods, no spaces. -->
-    <description>
-        Pawn missing a few crucial fingers, but don't want to replace the whole arm?
-    </description>
+    <description>Pawn missing a few crucial fingers, but don't want to replace the whole arm?</description>
 </ModMetaData>

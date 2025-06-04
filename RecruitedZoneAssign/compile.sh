@@ -1,0 +1,1 @@
+csc -t:library -out:Assemblies/library.dll @refs.rsp Source/*.cs

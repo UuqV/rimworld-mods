@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Load Zones into Caravan</name> <!-- The name of your mod in the mod list -->
+    <author>uuqstrings</author>
+    <supportedVersions> <!-- the version(s) your mod supports -->
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>uuqstrings.caravanloadzone</packageId> <!-- a unique identifier for your mod. Must
+    contain only a-z and periods, no spaces. -->
+    <description>
+        Automatically loads any items into a caravan in a stockpile marked "caravan."
+    </description>
+</ModMetaData>

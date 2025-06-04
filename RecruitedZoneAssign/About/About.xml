@@ -5,8 +5,20 @@
     <supportedVersions> <!-- the version(s) your mod supports -->
         <li>1.5</li>
     </supportedVersions>
-    <packageId>uuqstrings.recruitedZoneAssign</packageId> <!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
+    <packageId>uuqstrings.recruitedzoneassign</packageId> <!-- a unique identifier for your mod. Must
+    contain only a-z and periods, no spaces. -->
     <description>
         Assigns newly recruited pawns to the most commonly assigned zone for its type.
     </description>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+    </modDependencies>
 </ModMetaData>
