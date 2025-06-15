@@ -4,6 +4,7 @@
     <author>uuqstrings</author>
     <supportedVersions> <!-- the version(s) your mod supports -->
         <li>1.5</li>
+        <li>1.6</li>
     </supportedVersions>
     <packageId>uuqstrings.bionichand</packageId> <!-- a unique identifier for your mod. Must
     contain only a-z and periods, no spaces. -->

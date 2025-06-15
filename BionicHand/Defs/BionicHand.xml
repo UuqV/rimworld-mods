@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <xpath>Data/Core/Defs/HediffDefs/BodyParts/Hediffs_BodyParts_Bionic</xpath>
     <HediffDef ParentName="AddedBodyPartBase">
         <defName>BionicHand</defName>
         <label>bionic hand</label>
